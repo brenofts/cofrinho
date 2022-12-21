@@ -1,0 +1,31 @@
+* {
+    user-select: none;
+}
+
+body{
+    max-width: 44ch;
+    margin: auto;
+    padding: 4em 2em;
+    display: grid;
+    gap: 2em;
+}
+
+body > div{
+    padding: 2em;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+}
+
+body > div > div{
+    display: grid;
+    gap: 0.5em;
+}
+
+button{
+    width: max-content;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
